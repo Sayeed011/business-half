@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top header starts here */
+.top-header{
+    background-color: #f0f2f4;
+}
+.top-header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-header ul li{
+    color: #424242;
+    margin-left: 28px;
+    font-size: 15px;
+}
+.top-header ul li i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+.fb {
+    font-size: 22px !important;
+    color: #1287bf;
+}
+.top-header ul li:last-child{
+    margin-left: 0;
+}
+/* top header ends here */
+/* nav start here */
+.navbar-light .navbar-nav .nav-link{
+    color: #424242;
+    text-transform:capitalize;
+    font-weight:600;
+    font-size:17px;
+}
+.btn-custom{
+    color: #fff !important;
+    padding:7px 25px !important;
+    margin-left:20px;
+}
+/* nav ends here */
+/* banner starts here */
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'helveticabold';
+
+}
+.banner p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'helveticaregular';
+
+}
+.btn-custom-banner{
+    background-color: #f8cd53;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.btn-custom-banner:hover{
+    color: #fff;
+    background-color: #e4b32e;
+}
+.hg{
+    min-height: 85vh;
+}
+/* banner ends here */
+/* about us starts here */
+.heading{
+    position: relative;
+}
+.heading h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.heading p{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'helveticaregular';
+}
+.heading::before{
+    content:'';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    height: 5px;
+    width: 0px;
+    transform: translateX(-50%);
+    background-color: #424242;
+    transition:.4s all ease-in-out;
+}
+.about-us:hover .heading::before{
+    width: 50px;
+}
+.content-about-us h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* about us ends here */
